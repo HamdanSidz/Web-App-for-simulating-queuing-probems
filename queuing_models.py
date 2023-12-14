@@ -3,6 +3,8 @@ import math
 from math import factorial
 import numpy as np
 
+np.bool = np.bool_
+
 def mmc(lambda_val,mu_val,num_servers=1):
 
     if num_servers < 1:
