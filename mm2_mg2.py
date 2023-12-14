@@ -128,9 +128,7 @@ def mm2(lam, mu, server_count):
     st.text(f"Average Response Time: {round((sum(responsetime)/customer_count), 2)}")
 
 ####################################################################
-    import matplotlib.pyplot as plt
-    from matplotlib.ticker import MaxNLocator
-
+   
     def plot_individual_gantt_chart(server_data, server_labels, server_num):
         fig, ax = plt.subplots(figsize=(10, 6))
 
