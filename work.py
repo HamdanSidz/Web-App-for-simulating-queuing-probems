@@ -7,7 +7,7 @@ import streamlit as st
 import numpy as np
 
 np.bool = np.bool_
-
+np.object = object   
 
 total_simulated = 0        # main s update horaha
 arr_mean = 0           # arrival_input fun s update horaha

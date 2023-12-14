@@ -4,6 +4,7 @@ from math import factorial
 import numpy as np
 
 np.bool = np.bool_
+np.object = object   
 
 def mmc(lambda_val,mu_val,num_servers=1):
 
