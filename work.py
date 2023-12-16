@@ -175,8 +175,9 @@ def dataframe():
              "End Time": end_time_list, "Turn Around Time": turnaround_time_list, "Waiting Time": waiting_time_list,
              "Response Time": response_time_list}
 
-    df = pd.DataFrame(table, index=s_no)
-    df.index.name = "Customer.no"
+    #df = pd.DataFrame(table, index=s_no)
+    #df.index.name = "Customer.no"
+    df = pd.DataFrame(table)
     st.dataframe(df)
 
     draw_gantt_chart(gantt_chart)
